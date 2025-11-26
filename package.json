@@ -1,13 +1,16 @@
 {
-  "devDependencies": {
-    "@types/node": "^24.9.1",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
-  },
+  "name": "tlp4-sistema-inventario",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Luxycotin",
+  "type": "module",
+  "main": "app.js",
   "scripts": {
-    "dev": "ts-node src/singleton.ts",
     "build": "tsc",
-    "start": "node dist/singleton.js"
+    "dev": "tsx ./src/Patron-Singleton.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
   }
-
 }
